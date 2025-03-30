@@ -29,8 +29,7 @@ information, [click here](https://gitlab.winehq.org/wine/wine/-/wikis/Download)
  ```
 
 ## How to download via script
-
-On a terminal, go to the script **install.sh** directory parent and execute the script :
+Get the script cloning this repo or downloading **install.sh** in **releases** and execute the script :
 
 ```bash
   ./install.sh
