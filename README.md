@@ -28,17 +28,12 @@ information, [click here](https://gitlab.winehq.org/wine/wine/-/wikis/Download)
 
 ## How to download via script
 
-On a terminal, go to the script **install.sh** directory parent and add permission to execute :
-
-```bash
-  chmod +x install.sh
- ```
-On the same directory, execute the script :
+On a terminal, go to the script **install.sh** directory parent and execute the script :
 
 ```bash
   ./install.sh
  ```
-Once the script has ended, Astrometrica can be used via CLI :
+Accept everything required and once the script has ended, Astrometrica can be used via CLI :
 
 ```bash
   astrometrica
