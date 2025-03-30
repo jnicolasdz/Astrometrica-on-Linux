@@ -6,12 +6,6 @@ version="${link##*/}"
 echo "Downloading astrometrica..."
 curl -O "$link"
 
-echo "Downloading wine..."
-curl -O "$wine_source"
-wine_source="${wine_source##*/}"
-echo "Installing wine..."
-flatpak install $wine_source
-
 echo "Install astrometrica in wine..."
 wine $version
 echo "Creating alias..."
@@ -21,4 +15,3 @@ echo "alias astrometrica='cd $HOME/.wine/dosdevices/c:/Astrometrica && wine cmd 
 echo "Astrometrica installed successfully..."
 echo "Type astrometrica in terminal to start the program"
 echo "Please restart your terminal to apply changes"
-
