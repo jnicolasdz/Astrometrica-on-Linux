@@ -1,8 +1,8 @@
 <h1 align='center'>Astrometrica-on-Linux</h1>
 
 <p align='center'>
-<img src="./images/astrometrica-logo.jpg" width='250' height='150' alt="Better Auth Logo" />
-<img src="./images/winehq.png" width='250' height='150' alt="Better Auth Logo" />
+<img src="./images/astrometrica-logo.jpg" width='250' height='150' alt="Astrometrica Logo" />
+<img src="./images/winehq.png" width='250' height='150' alt="WineHq Logo" />
 </p>
 
 Astrometrica is a software program used for astronometrical data reduction, specially designed for
@@ -47,7 +47,7 @@ Once the script has ended, Astrometrica can be used via CLI :
 Or to run it manually, go to **~/.wine/dosdevices/c:/Astrometrica** and type :
 
 ```bash
- $ wine cmd /c Astrometrica.bat
+  wine cmd /c Astrometrica.bat
  ```
 
 ## How to download it manually
@@ -64,15 +64,15 @@ if the script present any problem or you prefer to download it by yourself, foll
 Once you verify all the package are correctly downloaded go to the directory which you downloaded wine, type :
 
 ```bash
- $ wine astrometrica-set-up-[version].exe
+  wine astrometrica-set-up-[version].exe
  ```
 
 ### 3. Run astrometrica via WineHQ:
    
 Finally, Astrometrica is correctly execute using wine, to run it type :
 ```bash
- $ cd ~/.wine/dosdevices/c:/Astrometrica
- $ wine cmd /c Astrometrica.bat
+   cd ~/.wine/dosdevices/c:/Astrometrica
+   wine cmd /c Astrometrica.bat
  ```
 
 
