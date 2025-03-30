@@ -23,6 +23,8 @@ information, [click here](https://gitlab.winehq.org/wine/wine/-/wikis/Download)
 
 ```bash
   curl --version
+ ```
+```bash
   wine --version 
  ```
 
@@ -64,9 +66,14 @@ Once you verify all the package are correctly downloaded go to the directory whi
 
 ### 3. Run astrometrica via WineHQ:
    
-Finally, Astrometrica is correctly execute using wine, to run it type :
+Finally, Astrometrica is correctly execute using wine, go to :
+
 ```bash
    cd ~/.wine/dosdevices/c:/Astrometrica
+ ```
+And run Astrometrica with :
+
+```bash
    wine cmd /c Astrometrica.bat
  ```
 
