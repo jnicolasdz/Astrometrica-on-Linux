@@ -49,7 +49,7 @@ Or to run it manually, go to **~/.wine/dosdevices/c:/Astrometrica** and type :
 
 if the script present any problem or you prefer to download it by yourself, follow the next steps:
 
-### 1. Download requiremnts:
+### 1. Download requirements:
  
 - WineHQ : You can downloaded follow the instructed steps, depending of your distribution via official page [here](https://gitlab.winehq.org/wine/wine/-/wikis/Download)
 - Astrometrica-set-up: Downloaded by clicking [here](http://iasc.cosmosearch.org/Content/Distributables/astrometrica-setup-v1.4.1.exe)
