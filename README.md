@@ -5,8 +5,7 @@
 <img src="./images/winehq.png" width='250' height='150' alt="WineHq Logo" />
 </p>
 
-Astrometrica is a software program used for astronometrical data reduction, specially designed for
-astronomical data reduction and provided by [IASC](https://iasc.cosmosearch.org/)
+Astrometrica is a software program used for astronometrical data reduction and provided by [IASC](https://iasc.cosmosearch.org/)
 However, it does not run in linux-based operating system. This project provided a way to run Astrometrica on linux,
 using wineHQ.
 
